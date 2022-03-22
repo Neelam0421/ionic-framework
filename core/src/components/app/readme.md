@@ -1,8 +1,24 @@
 # ion-app
-
-App is a container element for an Ionic application. There should only be one `<ion-app>` element per project. An app can have many Ionic components including menus, headers, content, and footers. The overlay components get appended to the `<ion-app>` when they are presented.
-
-<!-- Auto Generated Below -->
+<ion-app>
+  <ion-toolbar color="warning">
+  <ion-title> 
+    My first ionic app
+  </ion-title>
+</ion-toolbar>
+  <ion-content>
+    <ion-item>
+    <ion-label> User name </ion-label>
+    <ion-input type="text"> </ion-input>
+    </ion-item>  
+     <ion-item>
+    <ion-label> Password </ion-label>
+    <ion-input type="password"> </ion-input>
+    </ion-item>  
+  </ion-content>
+  <ion-footer>
+    End of my app
+  </ion-footer>
+</ion-app>
 
 
 ----------------------------------------------
